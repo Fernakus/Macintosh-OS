@@ -18,9 +18,8 @@ Instructions on creating a bootable MAC-OS usb:
 2) Click the thumb drive on the left menu in disk utility and click "Erase" at the top
 3) Name the thumb drive whatever you would like but exclude any spaces within the name
 4) For 'Format' select Mac-OS Extended Journaled and for 'Scheme' select Master Boot Record, click Erase
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-5) It is now done formatting your USB drive to the proper partition scheme and format, now open the app store and at the top click featured, then on the
-right hand side under "Quick Links" you should see the name of the OS you want to install, in this case macOS HighSierra
+5) It is now done formatting your USB drive to the proper partition scheme and format, now open the app store and at the top click featured, then on the right hand side under "Quick Links" you should see the name of the OS you want to install, in this case macOS HighSierra
+------------------------------------------------------------------{If the OS package is already downloaded start at step 6}
 6) After the download finishes open a finder window and then browse to Applications and then right click on the downloaded file and then click 'Show Package Contents'.
 (should be named something like Install macOS 'operating system name', in this case Install macOS High Sierra). Now browse through Contents > Resources
 7) Open a terminal and type 'sudo -s', then enter your password
