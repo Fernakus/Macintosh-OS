@@ -1,0 +1,65 @@
+Mac Commands
+Show current directory:
+pwd
+
+Make a new directory:
+mkdir newdirectoryname
+
+Remove a directory:
+rmkdir directoryname
+
+Unix Editor:
+pico
+
+Displays a list of running process:
+ps
+
+Navigate to a folder like utilities:
+cd /Applications/Utilities
+
+List the contents of a folder:
+ls
+
+List permissions of the directory:
+ls -l
+
+Lists all files including hidden ones:
+ls -a
+
+Update software:
+softwareupdate -l
+
+Be the sudo user all the time:
+sudo -s
+
+Find  all available updates:
+softwareupdate -ia
+
+Make a statement appear at login:
+defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText “Explore. Discover. Own.”
+
+Shutdown your mac asap:
+sudo shutdown -h now
+
+Restart your mac asap:
+sudo shutdown -r now
+
+Get your external ip address:
+curl ipecho.net/plain; echo
+
+Test network connectivity:
+ping -c 10 www.apple.com
+
+Have your mac talk:
+say " "
+
+Have your mac read any text in a file:
+say -f /path/to/file.txt
+
+View all current activities:
+top
+
+Uses vi:
+vi
+
+
