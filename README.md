@@ -1,2 +1,2 @@
 # Macintosh-OS
-Some tools/instructions on different methods within the macintosh operating system environment
+Bash Scripts - Some tools/instructions on different methods within the macintosh operating system environment
